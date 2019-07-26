@@ -2,7 +2,15 @@
     margin: 0;
     padding: 0;
 }
-.header--top{
-    color: aliceblue;
 
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.header--top, .header--left, .header--right  {
+    display: flex;
 }
