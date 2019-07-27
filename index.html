@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,900&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 
@@ -14,8 +15,35 @@
         <div class="header--left">
             <a href="index.html" class="header--logo"> <img src="img/logo.png" alt="logo"></a>
             <a href="index.html" class="header--logo__text">BRAN<span class="logo--text__color">D</span></a>
-            <form action="#"> <button type="submit">Browse</button> <input type="search"
-                    placeholder="Search for Item..."> <button type="submit">#</button></form>
+            <form action="#" class="form--search">
+                <div class="button-browse">
+                    <button type="submit" class="menu--search--button">Browse</button>
+                    <ul class="menu--search">
+                        <li class="menu--search__list"><span
+                                class="menu--search__link menu--search__link-color">Woman</span></li>
+                        <li class="menu--search__list"><a href="#" class="menu--search__link">Dresses</a></li>
+                        <li class="menu--search__list"><a href="#" class="menu--search__link">Tops</a></li>
+                        <li class="menu--search__list"><a href="#" class="menu--search__link">Sweaters/Knits</a></li>
+                        <li class="menu--search__list"><a href="#" class="menu--search__link">Jackets/Coats</a></li>
+                        <li class="menu--search__list"><a href="#" class="menu--search__link">Blazers</a></li>
+                        <li class="menu--search__list"><a href="#" class="menu--search__link">Denim</a></li>
+                        <li class="menu--search__list"><a href="#" class="menu--search__link">Leggings/Pants</a></li>
+                        <li class="menu--search__list"><a href="#" class="menu--search__link">Skirts/Shorts</a></li>
+                        <li class="menu--search__list"><a href="#" class="menu--search__link">Accessories </a></li>
+                        <li class="menu--search__list"><span
+                                class="menu--search__link menu--search__link-color">Men</span></li>
+                        <li class="menu--search__list"><a href="#" class="menu--search__link">Tees/Tank tops</a></li>
+                        <li class="menu--search__list"><a href="#" class="menu--search__link">Shirts/Polos</a></li>
+                        <li class="menu--search__list"><a href="#" class="menu--search__link">Sweaters</a></li>
+                        <li class="menu--search__list"><a href="#" class="menu--search__link">Sweatshirts/Hoodies</a>
+                        </li>
+                        <li class="menu--search__list"><a href="#" class="menu--search__link">Blazers</a></li>
+                        <li class="menu--search__list"><a href="#" class="menu--search__link">Jackets/vests</a></li>
+                    </ul>
+                </div>
+                <input type="text" placeholder="Search for Item...">
+                <button type="submit" class="btn--search">#</button>
+            </form>
         </div>
         <div class="header--right">
             <button type="submit" name="header--cart">1</button>
