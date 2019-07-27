@@ -53,7 +53,6 @@ li {
     text-transform: uppercase;
 }
 
-
 .button-browse {
     width: 87px;
     height: 38px;
@@ -159,7 +158,6 @@ li {
 
 .header--right-menu {
     position: relative;
-
 }
 
 .header--right-menu:hover .cart--menu {
@@ -182,7 +180,6 @@ li {
     align-items: center;
     padding-top: 15px;
     padding-bottom: 20px;
-
 }
 
 .cart--menu--text-item {
@@ -207,6 +204,10 @@ li {
     color: #e4af48;
 }
 
+.fa-times-circle {
+    color: #222;
+}
+
 .cart--menu--item__price {
     font-size: 10px;
     font-weight: 400;
@@ -223,7 +224,6 @@ li {
     justify-content: space-between;
     margin: 10px 0 0 10px;
 }
-
 
 .cart--menu--checkout {
     margin-top: 32px;
@@ -252,7 +252,6 @@ li {
     margin: 0 auto;
 }
 
-
 .cart--menu--go-cart--link {
     height: 100%;
     display: flex;
@@ -264,17 +263,10 @@ li {
     color: #4a4a4a;
 }
 
-
-
-
-
-
-
 .account--menu__list__all {
     width: 130px;
     height: 38px;
     background-color: #f16d7f;
-
 }
 
 .account--menu__list__all>a {
