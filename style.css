@@ -374,7 +374,6 @@ li {
 
 .dials {
     height: 1000px;
-    border: 1px solid #000;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -383,7 +382,6 @@ li {
 .dials--container {
     height: 825px;
     width: 1145px;
-    border: 1px solid #000;
     display: flex;
     justify-content: space-between;
 }
@@ -422,4 +420,47 @@ li {
     height: 542px;
 }
 
-.dial--bange {}
+.dial--bange {
+    background-color: #ffffff;
+}
+
+
+/* SEC FETURED */
+.fetured{
+    margin: 0 auto;
+}
+
+.fetured--text {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.fetured--items {
+    margin: 0 auto;
+    width: 1150px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+
+.fetured--item {
+    margin: 10px;
+    /* box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15); */
+    border: 1px solid #000;
+    width: 261px;
+    height: 371px;
+    background-color: #ffffff;
+}
+.fetured--item-hover {
+}
+.fetured--item-img { 
+    background-repeat: no-repeat;
+}
+.fetured--item--name {
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #222222;
+}
+.fetured--item--price {
+}
