@@ -422,17 +422,11 @@ li {
 }
 
 .dials--container {
-    height: 825px;
-    width: 1145px;
+    height: 815px;
+    width: 1140px;
     display: flex;
     justify-content: space-between;
-}
-
-.deals--left,
-.dials--right {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-flow: column wrap;
 }
 
 .dial--one,
@@ -447,7 +441,7 @@ li {
 .deal--two:hover,
 .dial--three:hover,
 .deal--four:hover {
-    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.315);
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.315);
 }
 
 .dial--one {
