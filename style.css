@@ -64,19 +64,19 @@ li {
     height: 38px;
     font-size: 14px;
     border: none;
-    border-right: none;
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
     color: #222;
     cursor: pointer;
+    background-image: linear-gradient(180.0deg, #f9f9f9 0%, #f5f5f5 100%);
 }
 
 .menu--search--text {
     width: 280px;
     height: 38px;
     box-sizing: border-box;
-    border: 0.1px solid #ccc;
+    border: 0.1px solid #e6e6e6;
     border-right: none;
 }
 
@@ -131,8 +131,7 @@ li {
 .btn--search {
     width: 40px;
     background-color: #fff;
-    border: .1px solid #ccc;
-    border-left: none;
+    border: .1px solid #e6e6e6;
     cursor: pointer;
 }
 
@@ -142,7 +141,7 @@ li {
 
 .fa-caret-up {
     margin-left: 65px;
-    color: #ccc;
+    color: #e6e6e6;
 }
 
 .header--cart {
@@ -307,11 +306,11 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top: 0.1px solid #ccc;
+    border-top: 0.1px solid #e6e6e6;
 }
 
 .nav--menu {
-    width: 680px;
+    width: 690px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -349,6 +348,7 @@ li {
 .brand-promo--text {
     border-left: 12px solid #f16d7f;
     padding-left: 20px;
+    margin-top: -51px;
 }
 
 .brand-promo--text__big {
@@ -368,3 +368,58 @@ li {
 .brand-promo--text__smal_pink {
     color: #f16d7f;
 }
+
+
+/* SEC DIALS */
+
+.dials {
+    height: 1000px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dials--container {
+    height: 825px;
+    width: 1145px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+}
+
+.deals--left,
+.dials--right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dial--one {
+    background-image: url(img/Deals-1.jpg);
+    width: 560px;
+    height: 542px;
+}
+
+.deal--two {
+    background-image: url(img/Deals-2.jpg);
+    background-repeat: no-repeat;
+    background-position: 149px 0;
+    width: 560px;
+    height: 261px;
+    background-color: #dadad2;
+}
+
+.dial--three {
+    background-image: url(img/Deals-3.jpg);
+    width: 560px;
+    height: 261px;
+}
+
+.deal--four {
+    background-image: url(img/Deals-4.jpg);
+    width: 560px;
+    height: 542px;
+}
+
+.dial--bange {}
