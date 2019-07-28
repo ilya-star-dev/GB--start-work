@@ -456,11 +456,22 @@ li {
 .fetured--item-img { 
     background-repeat: no-repeat;
 }
+.fetured--item--desc {
+    width: 265px;
+    height: 85px;
+}
+  
 .fetured--item--name {
     font-size: 13px;
     font-weight: 400;
     text-transform: uppercase;
     color: #222222;
 }
+
+.fetured--item-text {
+}
 .fetured--item--price {
 }
+.fetured--item--star {
+}
+
