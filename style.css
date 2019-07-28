@@ -25,7 +25,7 @@ li {
 }
 
 .header--top {
-    width: 1150px;
+    width: 1140px;
     height: 100px;
     justify-content: space-between;
     align-items: center;
@@ -59,7 +59,7 @@ li {
 
 .button-browse:hover .menu--search {
     display: block;
-    margin-top: 35px;
+    margin-top: 2px;
 
 }
 
@@ -171,6 +171,7 @@ li {
     position: absolute;
     left: -10px;
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.315);
+    margin-top: 2px;
 }
 
 .header--right-menu:hover .header--cart {
@@ -358,7 +359,8 @@ li {
     text-transform: uppercase;
     color: #222222;
 }
-.nav--menu--link:hover{
+
+.nav--menu--link:hover {
     background-color: rgba(0, 0, 0, 0.082);
     box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.144);
     transition: all 0.1s;
@@ -534,7 +536,7 @@ li {
 
 .fetured--items {
     margin: 0 auto;
-    width: 1150px;
+    width: 1140px;
     display: flex;
     flex-flow: wrap;
     justify-content: space-around;
@@ -636,8 +638,75 @@ li {
     letter-spacing: 0.025em;
     color: #ffffff;
 }
-.fetured--browse-btn:hover{
+
+.fetured--browse-btn:hover {
     transform: scale(1.03);
     box-shadow: 0px 0px 8px 1px #f16d7f;
     transition: all 0.3s;
+}
+
+/* SEC OFFER */
+
+.offer--container {
+    width: 1140px;
+    height: 529px;
+    margin: 0 auto;
+    background-color: #222224;
+}
+
+.offer--discount {
+    background-image: url(img/offer-bg.jpg);
+    width: 767px;
+    height: 529px;
+    background-repeat: no-repeat;
+    position: relative;
+    opacity: 1;
+}
+
+.discount--link {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.discount--link__layer{
+    width: 767px;
+    height: 529px;
+    opacity: 0.3;
+    position: absolute;
+    top: 0px;
+}
+
+.discount--bange {
+    display: block;
+    width: max-content;
+    position: absolute;
+    top: 146px;
+    left: 39px;
+}
+
+.discount--bange__deal {
+    font-size: 53.7px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.discount--bange__name {
+    font-size: 32.2px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.discount--bange__deal-last {
+    font-size: 53.7;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #f16d7f;
+    text-transform: uppercase;
 }
