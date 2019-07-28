@@ -56,6 +56,7 @@ li {
 .button-browse {
     width: 87px;
     height: 38px;
+
 }
 
 .menu--search--button {
@@ -68,6 +69,7 @@ li {
     align-items: center;
     display: flex;
     color: #222;
+    cursor: pointer;
 }
 
 .menu--search--text {
@@ -131,6 +133,7 @@ li {
     background-color: #fff;
     border: .1px solid #ccc;
     border-left: none;
+    cursor: pointer;
 }
 
 .btn--search:hover {
@@ -148,6 +151,7 @@ li {
     margin-right: 20px;
     background-color: transparent;
     border-color: transparent;
+    cursor: pointer;
 }
 
 .cart--menu {
@@ -264,19 +268,20 @@ li {
     color: #4a4a4a;
 }
 
+.account--menu-btn {
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .account--menu__list__all {
     width: 130px;
     height: 38px;
     background-color: #f16d7f;
-}
-
-.account--menu__list__all>a {
-    width: 100%;
-    height: 100%;
-    color: #222;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .account--menu__list {
@@ -302,6 +307,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-top: 0.1px solid #ccc;
 }
 
 .nav--menu {
@@ -324,19 +330,20 @@ li {
 .brand-promo {
     height: 613px;
     background-color: #e8e8e8;
-    background-image: url(img/sec1-background.jpg);
-    background-size: cover;
-    background-position: 0 -51px;
-}
 
-.brand-promo {
-    display: flex;
-    align-items: center;
 }
 
 .brand-promo--container {
-    margin-left: 260px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 1140px;
+}
 
+.brand-promo--content {
+    height: 100%;
+    background-image: url(img/sec1-background.jpg);
+    background-position: 0 -51px;
 }
 
 .brand-promo--text {
