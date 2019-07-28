@@ -652,6 +652,7 @@ li {
     height: 529px;
     margin: 0 auto;
     background-color: #222224;
+    display: flex;
 }
 
 .offer--discount {
@@ -665,13 +666,14 @@ li {
 
 .discount--link {
     display: block;
-    width: 100%;
+    width: 767px;
     height: 100%;
 }
-.discount--link__layer{
+
+.discount--link__layer {
     width: 767px;
     height: 529px;
-    opacity: 0.3;
+    opacity: 0.5;
     position: absolute;
     top: 0px;
 }
@@ -709,4 +711,57 @@ li {
     letter-spacing: 0.025em;
     color: #f16d7f;
     text-transform: uppercase;
+}
+
+.offer--about {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 48px 48px 48px 36px;
+}
+
+.offer--sale,
+.offer--quality,
+.offer--delivery {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer--delivery__icon {
+    color: white;
+}
+
+.offer--text {
+    width: 219px;
+}
+
+.offer-h2 {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #fbfbfb;
+}
+
+.offer-p {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #fbfbfb;
+}
+
+
+/* SEC COMMENTS */
+
+.comments {
+    height: 640px;
+    margin: 0 auto;
+}
+.comments--container {
+    width: 1600px;
+    height: 438px;
+    background-image: url(img/comments-subscribe-bg.jpg);
+    background-repeat: no-repeat;
+    
 }
