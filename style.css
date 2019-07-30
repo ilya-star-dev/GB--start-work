@@ -82,6 +82,8 @@ li {
     box-sizing: border-box;
     border: 0.1px solid #e6e6e6;
     border-right: none;
+    outline: 0;
+    padding-left: 15px;
 }
 
 .fa-caret-down {
@@ -748,14 +750,209 @@ li {
 
 /* SEC COMMENTS */
 
-.comments {
+.comm-subsc {
     height: 640px;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
 }
+
 .comments--container {
     width: 1600px;
     height: 438px;
     background-image: url(img/comments-subscribe-bg.jpg);
     background-repeat: no-repeat;
-    
+    display: flex;
+    position: relative;
+    z-index: 1;
+}
+
+.comments--container-layer {
+    position: absolute;
+    opacity: 0.5;
+    background-color: rgba(242, 242, 242, 0.5);
+    top: 0;
+    width: 1600px;
+    height: 100%;
+    z-index: 2;
+    opacity: 0.3;
+}
+
+.comments-left {
+    width: 800px;
+    border-right: 1px solid #fff;
+    z-index: 2;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-right: 82px;
+    padding-top: 123px;
+}
+
+.comments--text {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comments-photo {
+    width: 83px;
+    height: 83px;
+    border-radius: 50%;
+    align-self: flex-start;
+}
+
+.commets--quote--text {
+    width: 386px;
+    height: 68px;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 0.025em;
+    color: #222224;
+    line-height: 26px;
+}
+
+.comments-h2 {
+    font-size: 16px;
+    font-weight: 7000;
+    letter-spacing: 0.025em;
+    color: #f16d7f;
+    margin-top: 20px;
+}
+
+.comments-h3 {
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #f16d7f, #222224;
+}
+
+.subscribe-right {
+    width: 800px;
+    padding-top: 128px;
+    padding-left: 92px;
+    z-index: 2;
+}
+
+.subscribe--text {
+    width: 385px;
+    text-align: center;
+}
+
+.subscribe-h2 {
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    line-height: 45px;
+    color: #222224;
+}
+
+.subscribe-p {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    color: #222224;
+    margin-bottom: 25px;
+}
+
+.form--subscribe {
+    display: flex;
+    align-items: center;
+    height: 46px;
+}
+
+#form-subscribe-email {
+    width: 334px;
+    height: 46px;
+    background-color: #e1e1e1;
+    border-radius: 23px 0 0 23px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #222224;
+    border: 0;
+    outline: 0;
+    padding-left: 15px;
+}
+
+.form-subscribe-submit {
+    width: 104px;
+    height: 46px;
+    background-color: #f16d7f;
+    border-radius: 0px 23px 23px 0px;
+    outline: none;
+    border: 0;
+}
+.form-subscribe-submit:hover{
+    box-shadow: 0 0 5px 0 #4a4a4a;
+}
+
+
+/* SEC ABOUT */
+
+.about--container {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+}
+.about-brand-logo{
+    display: flex;
+    align-items: center;
+}
+.about--brand--text {
+    width: 427px;
+    height: 180px;
+}
+
+.brand--text-p1,
+.brand--text-p2 {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #898989;
+}
+
+.brand--text-p1 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.about--company {
+    width: 210px;
+    padding-left: 45px;
+    margin-top: 5px;
+}
+
+.about--company-h2 {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+    color: #f16d7f;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.about--company-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about--company--link {
+    font-size: 16px;
+    line-height: 42px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #898989;
+    padding: 7px;
+}
+.about--information{
+    width: 240px;
 }
