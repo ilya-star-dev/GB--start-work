@@ -59,7 +59,7 @@ li {
 
 .button-browse:hover .menu--search {
     display: block;
-    margin-top: 2px;
+    z-index: 2;
 
 }
 
@@ -109,8 +109,8 @@ li {
     background-color: #fff;
 }
 
-.menu--search__list:hover {
-    background-color: rgb(243, 243, 243);
+.menu--search__link:hover {
+    background-color: #e6e6e6;
 
 }
 
@@ -129,6 +129,11 @@ li {
     color: #232323;
     text-transform: uppercase;
     border-bottom: 1px solid black;
+    margin: 0 10px 0 10px;
+    padding: 10px 15px 10px 10px;
+    color: #4f4f4f;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .btn--search {
@@ -139,7 +144,7 @@ li {
 }
 
 .btn--search:hover {
-    background-color: rgb(233, 231, 231);
+    background-color: #e6e6e6;
     box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.315);
 }
 
@@ -173,7 +178,6 @@ li {
     position: absolute;
     left: -10px;
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.315);
-    margin-top: 2px;
 }
 
 .header--right-menu:hover .header--cart {
@@ -368,6 +372,94 @@ li {
     transition: all 0.1s;
     transform: scale(1.05);
 }
+
+
+
+.nav--menu--list {
+    position: relative;
+}
+
+.menu--women {
+    display: none;
+    position: absolute;
+}
+
+.nav--menu--women:hover .menu--women {
+    display: block;
+}
+
+.women--container {
+    width: 846px;
+    height: 310px;
+    background-color: #ffffff;
+    border-radius: 5.0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.list--women--categories {
+    width: 235px;
+
+}
+
+.women-h2 {
+    font-size: 14px;
+    line-height: 32px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    color: #232323;
+    border-bottom: 1px solid #000;
+    margin-bottom: 10px;
+}
+
+.women-list-link {
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #646464;
+    display: block;
+}
+
+.list--women--categories5 {
+    width: 255px;
+    height: 118px;
+    background-image: url(img/menu-women.jpg);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    position: relative;
+}
+
+.list-women-sale-text {
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+    margin: 12px;
+}
+
+.women--list:hover {
+    background-color: #e6e6e6;
+}
+
+.list-women-sale-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+
+
+
 
 /* SEC PROMO */
 .brand-promo {
@@ -866,7 +958,7 @@ li {
 }
 
 #form-subscribe-email {
-    width: 334px;
+    width: 282px;
     height: 46px;
     background-color: #e1e1e1;
     border-radius: 23px 0 0 23px;
@@ -886,25 +978,35 @@ li {
     border-radius: 0px 23px 23px 0px;
     outline: none;
     border: 0;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #ffffff;
 }
-.form-subscribe-submit:hover{
+
+.form-subscribe-submit:hover {
     box-shadow: 0 0 5px 0 #4a4a4a;
 }
 
 
 /* SEC ABOUT */
+.about {
+    height: 361px;
+}
 
 .about--container {
     width: 1140px;
     margin: 0 auto;
     display: flex;
 }
-.about-brand-logo{
+
+.about-brand-logo {
     display: flex;
     align-items: center;
 }
+
 .about--brand--text {
-    width: 427px;
+    width: 430px;
     height: 180px;
 }
 
@@ -922,6 +1024,8 @@ li {
     margin-bottom: 15px;
 }
 
+.about--information,
+.about--shop,
 .about--company {
     width: 210px;
     padding-left: 45px;
@@ -953,6 +1057,56 @@ li {
     color: #898989;
     padding: 7px;
 }
-.about--information{
+
+.about--information {
     width: 240px;
+}
+
+.about--company--link:hover {
+    box-shadow: 0px 0px 10px 1px #e6e6e6;
+    background-color: #e6e6e6;
+}
+
+/* FOOTER */
+
+footer {
+    height: 79px;
+    background-color: #e6e6e6;
+    display: flex;
+    align-items: center;
+}
+
+.footer--container {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer--copyring {
+    font-size: 16px;
+    line-height: 42px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #7a7a7a;
+}
+
+.footer--social {
+    height: 28px;
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fab {
+    color: #ffffff;
+}
+
+.fa-facebook-square:hover,
+.fa-twitter-square:hover,
+.fa-linkedin:hover,
+.fa-pinterest-square:hover,
+.fa-google-plus-square:hover {
+    color: #f16d7f;
 }
