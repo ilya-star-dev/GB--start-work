@@ -83,7 +83,7 @@ li {
     border: 0.1px solid #e6e6e6;
     border-right: none;
     outline: 0;
-    padding-left: 15px;
+    padding: 0 15px 0 15px;
 }
 
 .fa-caret-down {
@@ -968,7 +968,7 @@ li {
     color: #222224;
     border: 0;
     outline: 0;
-    padding-left: 15px;
+    padding: 0 15px 0 15px;
 }
 
 .form-subscribe-submit {
