@@ -1218,6 +1218,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    top: -85px;
 }
 
 .description--conteiner {
@@ -1393,6 +1395,10 @@ footer {
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
+}
+.bottom--choose--submit:hover{
+    box-shadow: 0 0 8px 1px #ef5b70;
+    background-color: #ef5b711e;
 }
 
 .bottom--choose--submit-text {
