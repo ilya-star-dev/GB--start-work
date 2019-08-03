@@ -340,8 +340,7 @@ li {
 }
 
 /* NAV */
-.nav {
-    width: 100%;
+.nav-top {
     height: 51px;
     display: flex;
     justify-content: center;
@@ -359,7 +358,7 @@ li {
 .nav--menu--link {
     font-size: 14px;
     display: block;
-    padding: 12px;
+    padding: 12px 20px 12px 20px;
     font-weight: 700;
     text-transform: uppercase;
     color: #222222;
@@ -369,7 +368,6 @@ li {
     background-color: rgba(0, 0, 0, 0.082);
     box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.144);
     transition: all 0.1s;
-    transform: scale(1.05);
 }
 
 .nav--menu--list {
@@ -1493,4 +1491,10 @@ footer {
     text-transform: uppercase;
     color: #e4af48;
     display: none;
+}
+
+
+/* CATALOG */
+.nav--menu--man-active{
+    border-bottom: 3px solid #ef5b70;
 }
