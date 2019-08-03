@@ -1564,12 +1564,15 @@ footer {
     font-weight: 400;
     color: #6f6e6e;
 }
-.catalog--menu--category--link-space{
+
+.catalog--menu--category--link-space {
     margin-top: 10px;
 }
-.catalog--menu--category--link:hover{
+
+.catalog--menu--category--link:hover {
     background-color: #e6e6e6;
 }
+
 .catalog--box {
     width: 850px;
 }
@@ -1635,7 +1638,8 @@ footer {
     margin: 0 5px 0 5px;
 
 }
-.catalog--filter--size--form label:hover{
+
+.catalog--filter--size--form label:hover {
     background-color: #e6e6e6;
     cursor: pointer;
 }
@@ -1921,8 +1925,6 @@ footer {
 .catalog-offer--delivery {
     width: 310px;
 }
-
-.catalog-offer--img {}
 
 .catalog-offer--h3 {
     font-size: 20px;
