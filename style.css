@@ -716,6 +716,11 @@ li {
     font-size: 15px;
     font-weight: 400;
     color: #e4af48;
+    display: none;
+}
+
+.fetured--item:hover .fetured--item--star {
+    display: block;
 }
 
 .fetured--browse-item {
@@ -924,7 +929,7 @@ li {
     font-size: 12px;
     font-weight: 300;
     letter-spacing: 0.025em;
-    color: #f16d7f, #222224;
+    color: #222224;
 }
 
 .subscribe-right {
@@ -998,7 +1003,7 @@ li {
 
 /* SEC ABOUT */
 .about {
-    height: 361px;
+    height: 345px;
 }
 
 .about--container {
@@ -1415,4 +1420,102 @@ footer {
     font-size: 16px;
     font-weight: 700;
     color: #ef5b70;
+}
+
+
+/* SEC RECCOMEND */
+
+.recommend-product {}
+
+.recommend-product--container {}
+
+.recommend-product--title {
+    text-align: center;
+    height: 72px;
+}
+
+.recommend-product--title-h2 {
+    font-size: 24px;
+    line-height: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #4d4d4d;
+}
+
+.recommend-product--list {
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.recommend-product--item {
+    width: 263px;
+    height: 364px;
+    background-color: #ffffff;
+}
+
+.recommend-product--item-img {
+    background-repeat: no-repeat;
+    height: 280px;
+    background-color: #e9e9e9;
+    background-position: center;
+}
+
+.recommend-product--item-img1 {
+    background-image: url(img/recommend-product-1.png);
+}
+
+.recommend-product--item-img2 {
+    background-image: url(img/recommend-product-2.png);
+    background-position-y: -12px;
+}
+
+.recommend-product--item-img3 {
+    background-image: url(img/recommend-product-3.png);
+}
+
+.recommend-product--item-img4 {
+    background-image: url(img/recommend-product-4.jpg);
+}
+
+.recommend-product--item-description {
+    padding: 18px 12px 0 15px;
+}
+
+.recommend-product--item-name {
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #6f6e6e;
+    margin-bottom: 17px;
+}
+
+.recommend-product--item-price {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #f16d7f;
+}
+
+.recommend-product--item-link:hover {
+    box-shadow: 0 0 10px black;
+}
+
+.recommend-product--item-link:hover .recommend-product--item-star {
+    display: block;
+}
+
+.recommend-product--item-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.recommend-product--item-star {
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #e4af48;
+    display: none;
 }
