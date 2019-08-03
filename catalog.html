@@ -236,7 +236,36 @@
     <main>
         <section class="catalog">
             <div class="content-box">
-                <aside class="catalog--menu"></aside>
+                <aside class="catalog--menu">
+                    <div class="catalog--menu--list">
+                        <details class="catalog--menu--category">
+                            <summary class="catalog--menu--category--summary-active">Category</summary>
+                            <a href="#" class="catalog--menu--category--link">Accessories</a>
+                            <a href="#" class="catalog--menu--category--link">Bags</a>
+                            <a href="#" class="catalog--menu--category--link">Denim</a>
+                            <a href="#" class="catalog--menu--category--link">Hoodies & Sweatshirts</a>
+                            <a href="#" class="catalog--menu--category--link">Jackets & Coats</a>
+                            <a href="#" class="catalog--menu--category--link">Pants</a>
+                            <a href="#" class="catalog--menu--category--link">Polos</a>
+                            <a href="#" class="catalog--menu--category--link">Shirts</a>
+                            <a href="#" class="catalog--menu--category--link">Shoes</a>
+                            <a href="#" class="catalog--menu--category--link">Shorts</a>
+                            <a href="#" class="catalog--menu--category--link">Sweaters & Knits</a>
+                            <a href="#" class="catalog--menu--category--link">T-Shirts</a>
+                            <a href="#" class="catalog--menu--category--link">Tanks</a>
+                        </details>
+                        <details class="catalog--menu--brand">
+                            <summary class="catalog--menu--category--summary">BRAND</summary>
+                            <a href="#" class="catalog--menu--category--link">Accessories</a>
+                            <a href="#" class="catalog--menu--category--link">Bags</a>
+                        </details>
+                        <details class="catalog--menu--designer">
+                            <summary class="catalog--menu--category--summary">dESIGNER</summary>
+                            <a href="#" class="catalog--menu--category--link">Accessories</a>
+                            <a href="#" class="catalog--menu--category--link">Bags</a>
+                        </details>
+                    </div>
+                </aside>
                 <div class="catalog--box">
                     <div class="catalog--filter">
                         <div class="catalog--filter--brend">
@@ -247,7 +276,7 @@
                                 <a href="#" class="catalog--filter--brend-name-link">Lace</a>
                                 <a href="#" class="catalog--filter--brend-name-link">Floral</a>
                                 <a href="#" class="catalog--filter--brend-name-link">Lace</a>
-                                <a href="#" class="catalog--filter--brend-name-link">Bohemian</a>
+                                <a href="#" class="catalog--filter--brend-name-link-last">Bohemian</a>
                             </div>
                         </div>
                         <div class="catalog--filter--size">
@@ -265,13 +294,16 @@
                             </div>
                         </div>
                         <div class="catalog--price">
-                            <h2 class="catalog--h2">price</h2>
-                            <div class="catalog--price--check"></div>
+                            <h2 class="catalog--filter-h2">price</h2>
+                            <div class="catalog--price--check">
+                                <label for="catalog--price--range"><input id="catalog--price--range"
+                                        type="range">$52</label>
+                            </div>
                         </div>
                     </div>
                     <div class="catalog--sort">
                         <div class="catalog--sort--sort-by">
-                            <h3 class="catalog--sort-h3"></h3>
+                            <h3 class="catalog--sort-h3">Sort By</h3>
                             <select name="catalog--sort-select" id="catalog--sort-select">
                                 <option value="Name" class="catalog--select--option" selected>Name</option>
                                 <option value="Price UP" class="catalog--select--option">Price UP</option>
@@ -279,7 +311,7 @@
                             </select>
                         </div>
                         <div class="catalog--sort-show">
-                            <h3 class="catalog--sort-show-h3"></h3>
+                            <h3 class="catalog--sort-show-h3">Show</h3>
                             <select name="catalog--sort-show--select" id="catalog--sort-show--select">
                                 <option value="09" class="catalog--sort-show--option" selected>09</option>
                                 <option value="01" class="catalog--sort-show--option">01</option>
@@ -288,11 +320,19 @@
                         </div>
                     </div>
                     <div class="catalog-content">
-                        <div class="catalog-content">
+                        <div class="catalog-content--item">
                             <div class="catalog-content-img">
-                                <div class="catalog-content-hover"><a href="#" class="catalog-content--cart"><img
-                                            src="img/cart-white.svg" alt="cart"> Add to Cart</a></div><img
-                                    src="img/catalog-1.jpg" alt="img">
+                                <div class="catalog-content-hover">
+                                    <a href="#" class="catalog-content--cart">
+                                        <img src="img/cart-white.svg" alt="cart"> Add to Cart
+                                    </a>
+                                    <div class="catalog-content-hover--bottom">
+                                        <a href="#" class="catalog-content--re"><img src="img/re.svg" alt="re"></a>
+                                        <a href="#" class="catalog-content--re"><img src="img/favorites.svg"
+                                                alt="favorites"></a>
+                                    </div>
+                                </div>
+                                <img src="img/catalog-1.jpg" alt="img">
                             </div>
                             <div class="catalog-content--desc">
                                 <a href="item-page.html" class="catalog-content--name">Mango People T-shirt</a>
@@ -304,21 +344,212 @@
                                 </div>
                             </div>
                         </div>
-
-
-                    </div>
-                    <div class="catalog--page-show">
-                        <div class="catalog--page-show--page-number">
-                            <i class="fas fa-chevron-left"></i>
-                            <a href="catalog.html" class="catalog--page-show--page-number1">1</a>
-                            <a href="#" class="catalog--page-show--page-number2">2</a>
-                            <a href="#" class="catalog--page-show--page-number3">3</a>
-                            <a href="#" class="catalog--page-show--page-number4">4</a>
-                            <a href="#" class="catalog--page-show--page-number5">5</a>
-                            <i class="fas fa-chevron-right"></i>
+                        <div class="catalog-content--item">
+                            <div class="catalog-content-img">
+                                <div class="catalog-content-hover">
+                                    <a href="#" class="catalog-content--cart">
+                                        <img src="img/cart-white.svg" alt="cart"> Add to Cart
+                                    </a>
+                                    <div class="catalog-content-hover--bottom">
+                                        <a href="#" class="catalog-content--re"><img src="img/re.svg" alt="re"></a>
+                                        <a href="#" class="catalog-content--re"><img src="img/favorites.svg"
+                                                alt="favorites"></a>
+                                    </div>
+                                </div>
+                                <img src="img/catalog-2.jpg" alt="img">
+                            </div>
+                            <div class="catalog-content--desc">
+                                <a href="item-page.html" class="catalog-content--name">Mango People T-shirt</a>
+                                <div class="catalog-content-text">
+                                    <p class="catalog-content--price">$52.00</p>
+                                    <p class="catalog-content--star"><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                                </div>
+                            </div>
                         </div>
-                        <button class="catalog--page-show--btn-all">View All</button>
+                        <div class="catalog-content--item">
+                            <div class="catalog-content-img">
+                                <div class="catalog-content-hover">
+                                    <a href="#" class="catalog-content--cart">
+                                        <img src="img/cart-white.svg" alt="cart"> Add to Cart
+                                    </a>
+                                    <div class="catalog-content-hover--bottom">
+                                        <a href="#" class="catalog-content--re"><img src="img/re.svg" alt="re"></a>
+                                        <a href="#" class="catalog-content--re"><img src="img/favorites.svg"
+                                                alt="favorites"></a>
+                                    </div>
+                                </div>
+                                <img src="img/catalog-3.jpg" alt="img">
+                            </div>
+                            <div class="catalog-content--desc">
+                                <a href="item-page.html" class="catalog-content--name">Mango People T-shirt</a>
+                                <div class="catalog-content-text">
+                                    <p class="catalog-content--price">$52.00</p>
+                                    <p class="catalog-content--star"><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog-content--item">
+                            <div class="catalog-content-img">
+                                <div class="catalog-content-hover">
+                                    <a href="#" class="catalog-content--cart">
+                                        <img src="img/cart-white.svg" alt="cart"> Add to Cart
+                                    </a>
+                                    <div class="catalog-content-hover--bottom">
+                                        <a href="#" class="catalog-content--re"><img src="img/re.svg" alt="re"></a>
+                                        <a href="#" class="catalog-content--re"><img src="img/favorites.svg"
+                                                alt="favorites"></a>
+                                    </div>
+                                </div>
+                                <img src="img/catalog-4.png" alt="img" class="item--img-png">
+                            </div>
+                            <div class="catalog-content--desc">
+                                <a href="item-page.html" class="catalog-content--name">Mango People T-shirt</a>
+                                <div class="catalog-content-text">
+                                    <p class="catalog-content--price">$52.00</p>
+                                    <p class="catalog-content--star"><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog-content--item">
+                            <div class="catalog-content-img">
+                                <div class="catalog-content-hover">
+                                    <a href="#" class="catalog-content--cart">
+                                        <img src="img/cart-white.svg" alt="cart"> Add to Cart
+                                    </a>
+                                    <div class="catalog-content-hover--bottom">
+                                        <a href="#" class="catalog-content--re"><img src="img/re.svg" alt="re"></a>
+                                        <a href="#" class="catalog-content--re"><img src="img/favorites.svg"
+                                                alt="favorites"></a>
+                                    </div>
+                                </div>
+                                <img src="img/catalog-5.jpg" alt="img" class="item--img-png">
+                            </div>
+                            <div class="catalog-content--desc">
+                                <a href="item-page.html" class="catalog-content--name">Mango People T-shirt</a>
+                                <div class="catalog-content-text">
+                                    <p class="catalog-content--price">$52.00</p>
+                                    <p class="catalog-content--star"><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog-content--item">
+                            <div class="catalog-content-img">
+                                <div class="catalog-content-hover">
+                                    <a href="#" class="catalog-content--cart">
+                                        <img src="img/cart-white.svg" alt="cart"> Add to Cart
+                                    </a>
+                                    <div class="catalog-content-hover--bottom">
+                                        <a href="#" class="catalog-content--re"><img src="img/re.svg" alt="re"></a>
+                                        <a href="#" class="catalog-content--re"><img src="img/favorites.svg"
+                                                alt="favorites"></a>
+                                    </div>
+                                </div>
+                                <img src="img/catalog-6.png" alt="img" class="item--img-png">
+                            </div>
+                            <div class="catalog-content--desc">
+                                <a href="item-page.html" class="catalog-content--name">Mango People T-shirt</a>
+                                <div class="catalog-content-text">
+                                    <p class="catalog-content--price">$52.00</p>
+                                    <p class="catalog-content--star"><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog-content--item">
+                            <div class="catalog-content-img">
+                                <div class="catalog-content-hover">
+                                    <a href="#" class="catalog-content--cart">
+                                        <img src="img/cart-white.svg" alt="cart"> Add to Cart
+                                    </a>
+                                    <div class="catalog-content-hover--bottom">
+                                        <a href="#" class="catalog-content--re"><img src="img/re.svg" alt="re"></a>
+                                        <a href="#" class="catalog-content--re"><img src="img/favorites.svg"
+                                                alt="favorites"></a>
+                                    </div>
+                                </div>
+                                <img src="img/catalog-7.jpg" alt="img">
+                            </div>
+                            <div class="catalog-content--desc">
+                                <a href="item-page.html" class="catalog-content--name">Mango People T-shirt</a>
+                                <div class="catalog-content-text">
+                                    <p class="catalog-content--price">$52.00</p>
+                                    <p class="catalog-content--star"><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog-content--item">
+                            <div class="catalog-content-img">
+                                <div class="catalog-content-hover">
+                                    <a href="#" class="catalog-content--cart">
+                                        <img src="img/cart-white.svg" alt="cart"> Add to Cart
+                                    </a>
+                                    <div class="catalog-content-hover--bottom">
+                                        <a href="#" class="catalog-content--re"><img src="img/re.svg" alt="re"></a>
+                                        <a href="#" class="catalog-content--re"><img src="img/favorites.svg"
+                                                alt="favorites"></a>
+                                    </div>
+                                </div>
+                                <img src="img/catalog-8.jpg" alt="img">
+                            </div>
+                            <div class="catalog-content--desc">
+                                <a href="item-page.html" class="catalog-content--name">Mango People T-shirt</a>
+                                <div class="catalog-content-text">
+                                    <p class="catalog-content--price">$52.00</p>
+                                    <p class="catalog-content--star"><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog-content--item">
+                            <div class="catalog-content-img">
+                                <div class="catalog-content-hover">
+                                    <a href="#" class="catalog-content--cart">
+                                        <img src="img/cart-white.svg" alt="cart"> Add to Cart
+                                    </a>
+                                    <div class="catalog-content-hover--bottom">
+                                        <a href="#" class="catalog-content--re"><img src="img/re.svg" alt="re"></a>
+                                        <a href="#" class="catalog-content--re"><img src="img/favorites.svg"
+                                                alt="favorites"></a>
+                                    </div>
+                                </div>
+                                <img src="img/catalog-9.png" alt="img" class="item--img-png">
+                            </div>
+                            <div class="catalog-content--desc">
+                                <a href="item-page.html" class="catalog-content--name">Mango People T-shirt</a>
+                                <div class="catalog-content-text">
+                                    <p class="catalog-content--price">$52.00</p>
+                                    <p class="catalog-content--star"><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                            class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog--page-show">
+                            <div class="catalog--page-show--page-number">
+                                <i class="fas fa-chevron-left"></i>
+                                <a href="catalog.html" class="catalog--page-show--page-number1">1</a>
+                                <a href="#" class="catalog--page-show--page-number2">2</a>
+                                <a href="#" class="catalog--page-show--page-number3">3</a>
+                                <a href="#" class="catalog--page-show--page-number4">4</a>
+                                <a href="#" class="catalog--page-show--page-number5">5</a>
+                                <i class="fas fa-chevron-right"></i>
+                            </div>
+                            <button class="catalog--page-show--btn-all">View All</button>
+                        </div>
                     </div>
+
 
 
                 </div>
@@ -328,18 +559,21 @@
     <section class="catalog-offer">
         <div class="catalog-offer--delivery">
             <img src="img/offer--car.svg" alt="delivery" class="catalog-offer--img">
-            <h3 class="catalog-offer--h3"></h3>
-            <p class="catalog-offer--text"></p>
+            <h3 class="catalog-offer--h3">Free Delivery</h3>
+            <p class="catalog-offer--text">Worldwide delivery on all. Authorit tively morph next-generation innov tion
+                with extensive models.</p>
         </div>
         <div class="catalog-offer--sales">
             <img src="img/offer--sale.svg" alt="sales" class="catalog-offer--img">
-            <h3 class="catalog-offer--h3"></h3>
-            <p class="catalog-offer--text"></p>
+            <h3 class="catalog-offer--h3">Sales & discounts</h3>
+            <p class="catalog-offer--text">Worldwide delivery on all. Authorit tively morph next-generation innov tion
+                with extensive models.</p>
         </div>
         <div class="catalog-offer--quality">
             <img src="img/offer--quality.svg" alt="quality" class="catalog-offer--img">
-            <h3 class="catalog-offer--h3"></h3>
-            <p class="catalog-offer--text"></p>
+            <h3 class="catalog-offer--h3">Quality assurance</h3>
+            <p class="catalog-offer--text">Worldwide delivery on all. Authorit tively morph next-generation innov tion
+                with extensive models.</p>
         </div>
     </section>
     <section class="comm-subsc">
