@@ -1888,3 +1888,55 @@ footer {
 .catalog--page-show--btn-all:hover {
     box-shadow: 0 0 5px 0 #ef5b70;
 }
+
+.catalog-offer {
+    margin: 0 auto;
+    height: 341px;
+    background-color: #222224;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 110px;
+    margin-bottom: -101px;
+    width: 1609px;
+}
+
+.catalog-offer--box {
+    width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.catalog-offer--delivery {
+    width: 310px;
+}
+
+.catalog-offer--img {}
+
+.catalog-offer--h3 {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #fbfbfb;
+    margin-top: 32px;
+    margin-bottom: 17px;
+}
+
+.catalog-offer--text {
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #fbfbfb;
+}
+
+.catalog-offer--sales {
+    width: 310px;
+}
+
+.catalog-offer--quality {
+    width: 310px;
+}
