@@ -378,33 +378,29 @@ li {
     position: relative;
 }
 
-.menu--women {
+.nav--top--menu {
     display: none;
     position: absolute;
 }
-
-.nav--menu--women:hover .menu--women {
+.nav--menu--list:hover .nav--top--menu {
     display: block;
 }
 
-.women--container {
-    width: 846px;
-    height: 310px;
+.top--menu--container {
     background-color: #ffffff;
     border-radius: 5.0px;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-around;
-    align-content: space-around;
+    padding: 21px 25px;
 }
 
-.list--women--categories {
+.top--menu--list--categories {
     width: 235px;
+    padding-right: 40px;
+    box-sizing: border-box;
 
 }
 
-.women-h2 {
+.list--categories--h2 {
     font-size: 14px;
     line-height: 32px;
     font-weight: 400;
@@ -433,6 +429,7 @@ li {
     align-items: flex-end;
     flex-direction: column;
     position: relative;
+    margin-top: 22px;
 }
 
 .list-women-sale-text {
@@ -445,7 +442,7 @@ li {
     margin: 12px;
 }
 
-.women--list:hover {
+.list--categories--active:hover {
     background-color: #e6e6e6;
 }
 
@@ -1395,8 +1392,10 @@ footer {
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
+    outline: 0;
 }
-.bottom--choose--submit:hover{
+
+.bottom--choose--submit:hover {
     box-shadow: 0 0 8px 1px #ef5b70;
     background-color: #ef5b711e;
 }
