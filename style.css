@@ -1182,8 +1182,6 @@ footer {
     border: 1.0px solid #eaeaea;
 }
 
-.product-item--left {}
-
 .product-item--left-link {
     display: block;
     width: 47px;
@@ -1203,8 +1201,6 @@ footer {
     align-self: flex-start;
     margin-top: 11px;
 }
-
-.product-item--right {}
 
 .product-item--right-link {
     display: block;
@@ -1332,7 +1328,6 @@ footer {
     margin: 0 auto;
 }
 
-
 .description--bottom--choose {
     display: flex;
     justify-content: space-between;
@@ -1358,7 +1353,6 @@ footer {
     color: #2f2f2f;
     text-transform: uppercase;
 }
-
 
 #size-list {
     width: 144px;
@@ -1424,10 +1418,6 @@ footer {
 
 
 /* SEC RECCOMEND */
-
-.recommend-product {}
-
-.recommend-product--container {}
 
 .recommend-product--title {
     text-align: center;
