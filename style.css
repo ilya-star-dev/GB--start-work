@@ -851,6 +851,7 @@ li {
 }
 
 .comments--container {
+    width: 1609px;
     height: 438px;
     background-image: url(img/comments-subscribe-bg.jpg);
     background-repeat: no-repeat;
