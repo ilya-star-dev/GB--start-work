@@ -372,8 +372,6 @@ li {
     transform: scale(1.05);
 }
 
-
-
 .nav--menu--list {
     position: relative;
 }
@@ -425,7 +423,6 @@ li {
     margin-top: 11px;
 }
 
-
 .list--women--categories4 {
     width: 100%;
     padding: 0 0 0 16px;
@@ -463,10 +460,6 @@ li {
     height: 100%;
     position: absolute;
 }
-
-
-
-
 
 /* SEC PROMO */
 .brand-promo {
@@ -511,7 +504,6 @@ li {
 .brand-promo--text__smal_pink {
     color: #f16d7f;
 }
-
 
 /* SEC DIALS */
 
@@ -851,7 +843,6 @@ li {
     color: #fbfbfb;
 }
 
-
 /* SEC COMMENTS */
 
 .comm-subsc {
@@ -1000,7 +991,6 @@ li {
     box-shadow: 0 0 5px 0 #4a4a4a;
 }
 
-
 /* SEC ABOUT */
 .about {
     height: 345px;
@@ -1123,9 +1113,6 @@ footer {
     color: #f16d7f;
 }
 
-
-
-
 /* ITEM_PAGE */
 
 .new-arrival {
@@ -1170,7 +1157,6 @@ footer {
     font-weight: 700;
     color: #f16d7f;
 }
-
 
 /* PRODUCT ITEM */
 .product-item {
@@ -1415,7 +1401,6 @@ footer {
     font-weight: 700;
     color: #ef5b70;
 }
-
 
 /* SEC RECCOMEND */
 
