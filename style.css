@@ -382,6 +382,7 @@ li {
     display: none;
     position: absolute;
 }
+
 .nav--menu--list:hover .nav--top--menu {
     display: block;
 }
@@ -418,6 +419,16 @@ li {
     letter-spacing: 0.025em;
     color: #646464;
     display: block;
+}
+
+.list--women--categories3 {
+    margin-top: 11px;
+}
+
+
+.list--women--categories4 {
+    width: 100%;
+    padding: 0 0 0 16px;
 }
 
 .list--women--categories5 {
