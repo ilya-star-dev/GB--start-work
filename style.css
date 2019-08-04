@@ -1982,7 +1982,7 @@ footer {
     text-transform: uppercase;
     letter-spacing: -0.015em;
     color: #222222;
-    text-align: right;
+    text-align: center;
 }
 
 .checkout--cart--head-h3-product {
@@ -1995,16 +1995,11 @@ footer {
     color: #222222;
 }
 
-.checkout--cart--list {}
-
-.checkout--cart--list--box {
-    height: 55px;
-}
-
 .checkout--cart--list--box {
     display: flex;
+    justify-content: space-between;
     height: 100%;
-    padding: 22px 18px 25px 0;
+    padding: 22px 0 22px 0;
     border-bottom: 1px solid #eaeaea;
 }
 
@@ -2055,9 +2050,10 @@ footer {
 }
 
 .checkout--cart--list--content-right {
-    width: 100%;
+    width: 630px;
     display: flex;
     justify-content: space-between;
+    text-align: center;
 }
 
 .checkout--cart--list--content-price {
@@ -2066,6 +2062,10 @@ footer {
     line-height: 20px;
     font-weight: 400;
     color: #656565;
+}
+
+.checkout--cart--list--content-quanity {
+    width: 80px;
 }
 
 #checkout--cart--list--content-quanity {
@@ -2104,7 +2104,162 @@ footer {
     color: #c0c0c0;
 }
 
-
 .checkout--cart--list--content-action {
     width: 80px;
 }
+
+.checkout--cart--btn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 43px;
+    margin-bottom: 63px;
+}
+
+#checkout--cart--btn-clear {
+    width: 235px;
+    height: 50px;
+    border: 1.0px solid #eaeaea;
+    background-color: #ffffff;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #4a4a4a;
+    outline: 0;
+}
+
+#checkout--cart--btn-go {
+    width: 225px;
+    height: 50px;
+    background-color: #ffffff;
+    border: 1.0px solid #eaeaea;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #4a4a4a;
+}
+
+#checkout--cart--btn-clear:hover,
+#checkout--cart--btn-go:hover {
+    box-shadow: 0 0 10px 0 #eaeaea;
+    background-color: #eaeaea;
+}
+
+
+.checkout--cart--form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkout--cart--form--shipping-addres {
+    display: flex;
+    flex-direction: column;
+    border: 0;
+}
+
+.checkout--cart--form--shipping-addres-h3 {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222;
+    margin-bottom: 22px;
+}
+
+#checkout--cart--form--shipping-addres--country {
+    width: 355px;
+    height: 45px;
+    background-color: #ffffff;
+    border: 1.0px solid #eaeaea;
+    font-size: 13px;
+    font-weight: 300;
+    color: #b1b1b1;
+    box-sizing: border-box;
+    padding: 0 12px 0 18px;
+    outline: 0;
+    margin-bottom: 20px;
+}
+
+#checkout--cart--form--shipping-addres--state {
+    width: 355px;
+    height: 45px;
+    background-color: #ffffff;
+    border: 1.0px solid #eaeaea;
+    padding: 0 18px 0 18px;
+    box-sizing: border-box;
+    outline: 0;
+    margin-bottom: 20px;
+}
+
+#checkout--cart--form--shipping-addres--state::placeholder {
+    font-size: 13px;
+    font-weight: 300;
+    color: #b1b1b1;
+}
+
+#checkout--cart--form--shipping-addres--postcode {
+    width: 355px;
+    height: 45px;
+    background-color: #ffffff;
+    border: 1.0px solid #eaeaea;
+    box-sizing: border-box;
+    padding: 0 18px 0 18px;
+    outline: 0;
+    margin-bottom: 22px;
+}
+
+#checkout--cart--form--shipping-addres--postcode::placeholder {
+    font-size: 13px;
+    font-weight: 300;
+    color: #b1b1b1;
+}
+
+#checkout--cart--form__quote {
+    width: 100px;
+    height: 35px;
+    background-color: #ffffff;
+    border: 1.0px solid #eaeaea;
+    font-size: 11px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #4a4a4a;
+}
+
+.checkout--cart--form--coupon {}
+
+.checkout--cart--form--coupon-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkout--cart--form--coupon-h3 {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.checkout--cart--form--coupon-text {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#checkout--cart--form--coupon-number {
+    width: 355px;
+    height: 45px;
+    background-color: #ffffff;
+    border: 1.0px solid #eaeaea;
+    box-sizing: border-box;
+    padding: 0 18px 0 18px;
+    outline: 0;
+    margin-bottom: 22px;
+}
+
+#checkout--cart--form--coupon-number::placeholder {
+    font-size: 13px;
+    font-weight: 300;
+    color: #b1b1b1;
+}
+
+.checkout--cart--form--coupon-btn-submit {}
