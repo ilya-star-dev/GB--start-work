@@ -2349,3 +2349,204 @@ footer {
     box-shadow: 0 0 10px #f16d7f;
     cursor: pointer;
 }
+
+
+/* checkout */
+
+
+.fast-checkout {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.fast-checkout fieldset {
+    border: 0;
+}
+
+.fast-checkout details summary::-webkit-details-marker {
+    display: none;
+}
+
+.fast-checkout--menu {
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.fast-checkout--head {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    outline: 0;
+}
+
+.fast-checkout--head:hover {
+    background-color: #e6e6e6;
+    cursor: pointer;
+}
+
+.fast-checkout__container {
+    padding-left: 35px;
+    padding: 5px 0 0 35px;
+    display: flex;
+}
+
+.fast-checkout--adress__container-left {
+    width: 590px;
+}
+
+.fast-checkout--adress--h {
+    font-size: 13px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #222222;
+    margin-bottom: 12px;
+}
+
+.fast-checkout--adress--text {
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #b3b2b2;
+}
+
+.fast-checkout--adress__container-left__fieldset {
+    margin-top: 34px;
+    margin-bottom: 33px;
+    display: flex;
+}
+
+.fast-checkout--adress__container-left__fieldset label {
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #222222;
+    width: 160px;
+}
+
+#fast-checkout--adress__container-left__guest {
+    margin-bottom: 16px;
+    cursor: pointer;
+    margin-right: 14px;
+}
+
+#fast-checkout--adress__container-left__register {
+    cursor: pointer;
+    margin-right: 14px;
+}
+
+.fast-checkout--adress--text-space {
+    margin-top: 33px;
+    margin-bottom: 12px;
+}
+
+#fast-checkout--adress__container-left__form-btn {
+    width: 180px;
+    height: 50px;
+    background-color: #ffffff;
+    border: 1.0px solid #eaeaea;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #4a4a4a;
+    outline: 0;
+    margin: 38px 0 79px 0;
+}
+
+#fast-checkout--adress__container-left__form-btn:hover {
+    box-shadow: 0 0 5px 0 #e6e6e6;
+    background-color: #e6e6e6;
+    cursor: pointer;
+}
+
+.fast-checkout--adress__container-right__form legend {
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #222222;
+    margin: 20px 0 14px 0;
+}
+.fast-checkout--adress__container-right__form legend label:hover{
+    cursor: pointer;
+}
+
+.fast-checkout--adress--text-space2 {
+    margin-bottom: 25px;
+}
+
+#fast-checkout--adress__container-right__email {
+    width: 390px;
+    height: 45px;
+    background-color: #ffffff;
+    border: 1.0px solid #eaeaea;
+    padding: 0 10px 0 10px;
+    margin-bottom: 23px;
+}
+
+#fast-checkout--adress__container-right__password {
+    width: 390px;
+    height: 45px;
+    background-color: #ffffff;
+    border: 1.0px solid #eaeaea;
+    margin-bottom: 22px;
+}
+
+.fast-checkout--adress__container-right--req-text {
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #ff0d0d;
+    margin-bottom: 32px;
+}
+
+#fast-checkout--adress__container-right--login_btn {
+    width: 180px;
+    height: 50px;
+    background-color: #ffffff;
+    border: 1.0px solid #eaeaea;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #4a4a4a;
+}
+
+#fast-checkout--adress__container-right--login_btn:hover {
+    box-shadow: 0 0 5px 0 #e6e6e6;
+    background-color: #e6e6e6;
+    cursor: pointer;
+}
+
+.fast-checkout--adress__container-right--forgotpas {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #222222;
+    margin-left: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fast-checkout--adress__container-right__form label:after {
+    content: "*";
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #ff0d0d;
+}
