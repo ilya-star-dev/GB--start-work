@@ -2069,7 +2069,10 @@ footer {
     width: 80px;
 }
 
-#checkout--cart--list--content-quanity {
+
+#checkout--cart--list--content-quanity-1,
+#checkout--cart--list--content-quanity-2,
+#checkout--cart--list--content-quanity-3 {
     width: 52px;
     height: 28px;
     background-color: #ffffff;
@@ -2472,7 +2475,8 @@ footer {
     color: #222222;
     margin: 20px 0 14px 0;
 }
-.fast-checkout--adress__container-right__form legend label:hover{
+
+.fast-checkout--adress__container-right__form legend label:hover {
     cursor: pointer;
 }
 
@@ -2538,11 +2542,27 @@ footer {
     font-weight: 400;
     color: #ff0d0d;
 }
-details[open] summary ~ * {
+
+details[open] summary~* {
     animation: sweep .5s ease-in-out;
-  }
-  
-  @keyframes sweep {
-    0%    {opacity: 0; margin-left: -20px}
-    100%  {opacity: 1; margin-left: 0px}
-  }
+}
+
+@keyframes sweep {
+    0% {
+        opacity: 0;
+        margin-left: -20px
+    }
+
+    100% {
+        opacity: 1;
+        margin-left: 0px
+    }
+}
+
+.product-item--name-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+}
