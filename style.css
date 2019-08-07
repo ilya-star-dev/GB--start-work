@@ -1105,6 +1105,20 @@ footer {
     color: #ffffff;
 }
 
+.fa-facebook-square,
+.fa-twitter-square,
+.fa-linkedin,
+.fa-pinterest-square,
+.fa-google-plus-square {
+    width: 26px;
+    line-height: 28px !important;
+    border-radius: 5px;
+}
+
+.footer--social-link {
+    background-color: #b2b2b2;
+}
+
 .fa-facebook-square:hover,
 .fa-twitter-square:hover,
 .fa-linkedin:hover,
