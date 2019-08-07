@@ -1105,11 +1105,7 @@ footer {
     color: #ffffff;
 }
 
-.fa-facebook-square,
-.fa-twitter-square,
-.fa-linkedin,
-.fa-pinterest-square,
-.fa-google-plus-square {
+.social-icon {
     width: 26px;
     line-height: 28px !important;
     border-radius: 5px;
@@ -1119,13 +1115,14 @@ footer {
     background-color: #b2b2b2;
 }
 
-.fa-facebook-square:hover,
-.fa-twitter-square:hover,
-.fa-linkedin:hover,
-.fa-pinterest-square:hover,
-.fa-google-plus-square:hover {
+.footer--social-link:hover {
+    background-color: #fff;
+}
+
+.social-icon:hover {
     color: #f16d7f;
 }
+
 
 /* ITEM_PAGE */
 
