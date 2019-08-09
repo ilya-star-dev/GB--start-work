@@ -2025,12 +2025,14 @@ footer {
 }
 
 .checkout--cart--list--content-name--h3 {
+    padding-bottom: 38px;
+}
+.checkout--cart--list--content-name--h3 a {
     font-size: 13px;
     line-height: 1.2;
     font-weight: 400;
     text-transform: uppercase;
     color: #222222;
-    padding-bottom: 38px;
 }
 
 .checkout--cart--list--content-name--color {
@@ -2510,6 +2512,7 @@ footer {
     background-color: #ffffff;
     border: 1.0px solid #eaeaea;
     margin-bottom: 22px;
+    padding: 0 10px 0 10px;
 }
 
 .fast-checkout--adress__container-right--req-text {
