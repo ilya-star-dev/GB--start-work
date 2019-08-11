@@ -944,7 +944,7 @@ li {
 }
 
 .discount--bange__deal-last {
-    font-size: 53.7;
+    font-size: 54px;
     line-height: 1.2;
     font-weight: 700;
     letter-spacing: 0.025em;
@@ -1091,7 +1091,7 @@ li {
 
 .comments-h2 {
     font-size: 16px;
-    font-weight: 7000;
+    font-weight: 700;
     letter-spacing: 0.025em;
     color: #f16d7f;
     margin-top: 20px;
